@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.10",
+    "redis": "^4.2.0"
+  },
+  "scripts": {
+    "server": "nodemon app"
+  }
+}
