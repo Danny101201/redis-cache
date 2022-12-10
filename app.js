@@ -5,7 +5,8 @@ const {createClient} = require('redis');
 const axios = require('axios');
 const client = createClient({
   legacyMode: true,
-  url:'redis://redis-12158.c299.asia-northeast1-1.gce.cloud.redislabs.com:12158'
+
+  url:'youURL'
 });
 
 app.use(express.json());
